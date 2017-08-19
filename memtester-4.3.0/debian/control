@@ -1,0 +1,18 @@
+Source: memtester
+Section: utils
+Priority: optional
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: http://pyropus.ca/software/memtester/
+
+Package: memtester
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Utility for testing the memory subsystem
+ This is a userspace utility for testing the memory subsystem for faults.
+ In comparison to memtest86 you do not need to reboot the computer to test
+ for memory faults.
+ .
+ Memtester can also be told to test memory starting at a particular
+ physical address.

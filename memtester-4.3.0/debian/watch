@@ -1,0 +1,3 @@
+version=3
+http://pyropus.ca/software/memtester/ .*/memtester-(\d.*)\.(?:tgz|tbz2|tar\.(?:gz|bz2|xz))
+# Bart Martens <bartm@debian.org>  Mon, 10 Dec 2012 21:16:33 +0000
